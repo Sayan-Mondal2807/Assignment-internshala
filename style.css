@@ -1,0 +1,250 @@
+.lineOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lineOne > .left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lineOne > .left > .image > img {
+  object-fit: contain;
+  width: calc(40px + 5vw);
+  padding: 10px;
+}
+
+.lineOne > .left > .imageDesc > h1 {
+  font-size: calc(20px + 0.5vw);
+}
+
+.lineOne > .left > .imageDesc > h2 {
+  font-size: calc(15px + 0.5vw);
+}
+
+.lineOne > .right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 0 20px 20px;
+}
+
+.lineOne > .right > button {
+  margin-right: 10px;
+}
+
+.lineTwo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.lineTwo > .sec {
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: #dcdcdc;
+}
+
+.navbar > .left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-right: 40px;
+}
+
+.navbar > .left > h1 {
+  font-size: calc(10px + 0.8vw);
+  font-weight: normal;
+}
+
+.navbar > .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar > .right > button {
+  font-size: calc(4px + 0.8vw);
+  font-weight: normal;
+  margin-right: 10px;
+}
+
+.banner > .image > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.content > .left {
+  flex: 0.6;
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 11px;
+}
+
+.content > .left > .headline > h1 {
+  font-size: calc(15px + 1.8vw);
+  font-weight: normal;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #dcdcdc;
+}
+
+.content > .left > .headline > .content > .image > img {
+  width: calc(200px + 5vw);
+  object-fit: contain;
+  padding: 10px;
+}
+
+.content > .left > .headline > .content > .desc > h1 {
+  font-size: calc(14px + 0.5vw);
+}
+
+.content > .left > .headline > .content > .desc > p {
+  font-size: calc(12px + 0.5vw);
+}
+
+.content > .left > .headline > .buttons {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content > .left > .headline > .buttons > button {
+  padding: 10px 15px;
+  border-radius: 7px;
+  border: 1px solid black;
+  outline: none;
+}
+
+.content > .left > .reviews > h1 {
+  font-size: calc(15px + 1.8vw);
+  font-weight: normal;
+  border: 1px solid black;
+  padding: 5px;
+  background-color: #dcdcdc;
+}
+
+.content > .left > .reviews > .images {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content > .left > .reviews > .images > .image {
+  display: grid;
+  place-items: center;
+  padding: 5px;
+}
+
+.content > .left > .reviews > .images > .image > img {
+  object-fit: contain;
+  width: calc(90px + 4vw);
+}
+
+.content > .left > .reviews > .images > .image > h1 {
+  font-size: calc(9px + 0.4vw);
+  font-weight: normal;
+}
+
+.content > .left > .reviews > .desc > h1 {
+  font-size: calc(14px + 0.5vw);
+}
+
+.content > .left > .reviews > .desc > p {
+  font-size: calc(12px + 0.5vw);
+}
+
+.content > .right {
+  padding: 20px;
+  flex: 0.4;
+}
+
+.content > .right > .social > h1 {
+  font-size: calc(15px + 1.8vw);
+  font-weight: normal;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  background-color: #dcdcdc;
+}
+
+.content > .right > .social > .content {
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.content > .right > .social > .content > .video > iframe {
+  width: 100%;
+  object-fit: contain;
+}
+
+.content > .right > .social > .content > .links {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid black;
+}
+
+.content > .right > .navigate {
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 11px;
+}
+
+.content > .right > .navigate > h1 {
+  font-size: calc(15px + 1.8vw);
+  font-weight: normal;
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  background-color: #dcdcdc;
+}
+
+.footer {
+  display: grid;
+  place-items: center;
+}
+
+.footer > .lineOne {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.footer > .lineOne > h1 {
+  font-size: calc(12px + 0.6vw);
+  font-weight: normal;
+}
+
+.footer > .lineOne > h1 > a {
+  color: dodgerblue;
+}
+
+.footer > .lineTwo {
+  color: dodgerblue;
+}
